@@ -1,0 +1,23 @@
+settings:
+  application:
+    domain: localhost:8020
+    host: 0.0.0.0
+    ishttps: false
+    mode: dev
+    name: xxl-go-job
+    port: "8020"
+    readtimeout: 1
+    writertimeout: 2
+  jwt:
+    secret: xxl-go-job
+    timeout: 86400
+  log:
+    compress: 1
+    consolestdout: true
+    filestdout: true
+    level: debug
+    localtime: 1
+    maxage: 30
+    maxbackups: 300
+    maxsize: 10240
+    path: ./logs/xxl-go-job.log
